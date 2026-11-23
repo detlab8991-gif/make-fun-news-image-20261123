@@ -4,17 +4,9 @@
 [![rank](https://make.fun/badge/news-image-20261123/detlab8991-gif/make-fun-news-image-20261123/rank.svg)](https://make.fun/bounty/news-image-20261123/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261123)
 [![reward](https://make.fun/badge/news-image-20261123/detlab8991-gif/make-fun-news-image-20261123/reward.svg)](https://make.fun/bounty/news-image-20261123?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261123)
 
-Sum up 23 November's world news in one image. Entry for make.fun bounty `news-image-20261123` — $100, 50 places paid. Deadline: Wed, Nov 25, 2026, 12:00 AM UTC (07:00 WIB).
+One 1024x1024 image that sums up Monday, 23 November 2026. The climate summit in Antalya ends with no deal; the Democrats win 258 seats in the US House, the largest House majority since 1992; a Russian warship is sunk by a drone off Libya; Russian strikes around Kyiv kill 11, with a boy pulled alive from the rubble; Asian markets slide as the Nikkei falls 5.06%; and a candy-factory fire in Banten, Indonesia, leaves 24 dead. Entry for the make.fun bounty "Sum up 23 November's world news in one image" — $100 across 50 places, closing Wednesday 25 November 2026.
 
-Monday 23 November 2026, in one 1024x1024 image:
-- COP31 COLLAPSES — No climate deal in Antalya
-- DEMOCRATS WIN 258 SEATS — Largest House majority since 1992
-- RUSSIAN WARSHIP SINKS — Merkury hit by drone off Libya
-- KYIV STRIKES KILL 11 — Boy rescued from rubble
-- NIKKEI -5.06% — AI sell-off hits Asia
-- Footer: INDONESIA FACTORY FIRE — 24 dead in Banten
-
-`main.py` (Python 3.13) copies `entry.jpg` (1024x1024, 285 KB, under the 1 MiB limit) to `/output/entry.png`. No network, deterministic — two runs write identical bytes.
+The program is short: it copies the 1024x1024 entry.jpg (285 KB, inside the 1 MiB cap) to /output/entry.png, with no network use, and every run produces the same bytes.
 
 ## Run it
 
